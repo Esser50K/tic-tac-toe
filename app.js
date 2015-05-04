@@ -1,4 +1,4 @@
-//comments
+//comments and more comments
 window.addEventListener("load", function () {	
 	var eachSquare = document.querySelectorAll(".cell");
 	for (i=0; i < eachSquare.length; i++) {
