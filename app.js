@@ -33,22 +33,31 @@ function clearBoard() {
 		newBoard[i].style.color = "aqua";
 	var topleft = document.querySelector("#topleft");
 	topleft.innerHTML = "1";
+	topleft.style.color = "aqua";
 	var topCenter = document.querySelector("#topcenter");
-	topCenter.innerHTML = "2";	
+	topCenter.innerHTML = "2";
+	topCenter.style.color = "aqua";	
 	var topRight = document.querySelector("#topright");
 	topRight.innerHTML = "3";
+	topRight.style.color = "aqua";
 	var midLeft = document.querySelector("#midleft");
 	midLeft.innerHTML = "4";
+	midLeft.style.color = "aqua";
 	var midCenter = document.querySelector("#midcenter");
 	midCenter.innerHTML = "5";
+	midCenter.style.color = "aqua";
 	var midRight = document.querySelector("#midright");
 	midRight.innerHTML = "6";
+	midRight.style.color = "aqua";
 	var bottomLeft = document.querySelector("#bottomleft");
 	bottomLeft.innerHTML = "7";
+	bottomLeft.style.color = "aqua";
 	var bottomCenter = document.querySelector("#bottomcenter");
 	bottomCenter.innerHTML = "8";
+	bottomCenter.style.color = "aqua";
 	var bottomRight = document.querySelector("#bottomright");
 	bottomRight.innerHTML = "9";
+	bottomRight.style.color = "aqua";
 		}		
 	}
 // var random1 = document.querySelector("#topleft");
