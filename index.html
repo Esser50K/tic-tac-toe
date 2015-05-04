@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <script src='ticTacToe.js'></script>
+    <script src='app.js'></script>
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
@@ -9,15 +9,22 @@
     <div id='board'>
       <!-- the `&nbsp;` in each div is a non-breakable space.
            It prevents the div from collapsing. -->
-      <div class='box'>&nbsp;</div>
-      <div class='box'>&nbsp;</div>
-      <div class='box'>&nbsp;</div>
-      <div class='box'>&nbsp;</div>
-      <div class='box'>&nbsp;</div>
-      <div class='box'>&nbsp;</div>
-      <div class='box'>&nbsp;</div>
-      <div class='box'>&nbsp;</div>
-      <div class='box'>&nbsp;</div>
+      <div id="toprow">
+        <div class='cell' id='topleft'>1&nbsp;</div>
+        <div class='cell' id='topcenter'>2&nbsp;</div>
+        <div class='cell' id='topright'>3&nbsp;</div>
+      </div>  
+      <div id="middlerow"> 
+        <div class='cell' id='midleft'>4&nbsp;</div>
+        <div class='cell' id='midcenter'>5&nbsp;</div>
+        <div class='cell' id='midright'>6&nbsp;</div>
+      </div>
+      <div id="bottomrow">
+        <div class='cell' id='bottomleft'>7&nbsp;</div>
+        <div class='cell' id='bottomcenter'>8&nbsp;</div>
+        <div class='cell' id='bottomright'>9&nbsp;</div>
+      </div>
     </div>
+  <button id="Button">Reset</button>
   </body>
 </html>
