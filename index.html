@@ -1,29 +1,31 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <script src='app.js'></script>
+    <script src='ttt-jq-refactor.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
     
     <h1>Tic Tac Toe</h1>
+    <div id="headline">Your turn X</div><div id="turn"></div>
     <div id='board'>
       <!-- the `&nbsp;` in each div is a non-breakable space.
            It prevents the div from collapsing. -->
       <div id="toprow">
-        <div class='cell' id='topleft'>1&nbsp;</div>
-        <div class='cell' id='topcenter'>2&nbsp;</div>
-        <div class='cell' id='topright'>3&nbsp;</div>
+        <div class='cell' id="sq1">1&nbsp;</div>
+        <div class='cell' id="sq2">2&nbsp;</div>
+        <div class='cell' id="sq3">3&nbsp;</div>
       </div>  
       <div id="middlerow"> 
-        <div class='cell' id='midleft'>4&nbsp;</div>
-        <div class='cell' id='midcenter'>5&nbsp;</div>
-        <div class='cell' id='midright'>6&nbsp;</div>
+        <div class='cell' id="sq4">4&nbsp;</div>
+        <div class='cell' id="sq5">5&nbsp;</div>
+        <div class='cell' id="sq6">6&nbsp;</div>
       </div>
       <div id="bottomrow">
-        <div class='cell' id='bottomleft'>7&nbsp;</div>
-        <div class='cell' id='bottomcenter'>8&nbsp;</div>
-        <div class='cell' id='bottomright'>9&nbsp;</div>
+        <div class='cell' id="sq7">7&nbsp;</div>
+        <div class='cell' id="sq8">8&nbsp;</div>
+        <div class='cell' id="sq9">9&nbsp;</div>
       </div>
     </div>
   <button id="Button">Reset</button>
