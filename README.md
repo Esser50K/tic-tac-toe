@@ -14,7 +14,7 @@ Today we will be making a Tic Tac Toe game using all of this.
 * Add a reset button that will clear the contents of the board.
 
 ##How to get started
-1. Construct a `index.html` to be your starting point on this project. Add your necessary html tags, including `script` and `link` tags to link to your javascript and css respecively.
+1. Construct a `index.html` to be your starting point on this project. Add your necessary html tags, including `script` and `link` tags to link to your javascript and css respectively.
 2. Before you even start working with javascript, construct the gameboard. The gameboard page should include the 3x3 grid, and at minimum a reset button. Using `id` and `class` on clickable elements will help you wire this up in javascript afterwards.
 3. Javascript portion will be next
 	* Locate the element first to use it within your app. Think about using `querySelector` or `querySelectorAll` to locate your target elements. Try this in your console to make sure your selection works.
@@ -25,6 +25,7 @@ Today we will be making a Tic Tac Toe game using all of this.
 * Display a message to indicate which turn is about to be played.
 * After the necessary moves have been played, stop game and alert the winner if one player ends up winning with three in a row.
 	* Hint: Determine a set of winning combinations. Check those combinations on the board contents after every move.
+
 
 
 
